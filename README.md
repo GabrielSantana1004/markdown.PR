@@ -14,3 +14,26 @@ nome: any = "Vai Corintia";
 // bom
 nome: string= 'sem mundial';
 ´´´
+---
+
+´´´
+
+evite o uso de "else"
+
+´´´
+´´´
+
+// ruim
+
+if (a == b)
+    console.log("iguais")
+else
+    Console.log("diferentes")
+
+// bom
+
+if (a == b)
+    console.log("iguais")
+if (a != b)
+    console.log("diferentes")
+´´´
